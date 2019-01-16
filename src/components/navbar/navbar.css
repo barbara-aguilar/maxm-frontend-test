@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 60px;
+    min-height: 58px;
+    padding: 0 1rem;
+    background: #2b7dae;
+    box-shadow: 0 1px 1px 0 #f0f1f4;
+}
+
+.navbar__logo {
+    display: block;
+    width: 135px;
+    margin: 0 auto;
+    
+}
+
+
+@media (min-width: 992px) {
+    .navbar {
+        padding: 0 10%;
+
+    }
+    .navbar__logo{
+    padding: 10px;
+    margin-left:60px;
+    }
+}
