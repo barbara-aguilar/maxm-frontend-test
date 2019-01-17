@@ -12,12 +12,12 @@ import './footer.css'
 const Footer = (props) => (
     <footer className='footer'>
 
-        <div className='foooter__container-contact'>
-
+        <div className='footer__box-logo'>
             <img className='footer__logo' src={logo} alt='MaxMilhas'/>
+        </div>
 
+        <div className='footer__box-contact'>
             <ul className='footer__list'>
-
                 <li className='footer__list-links'>
                     <a href='http://www.maxmilhas.com.br'><img className='footer__icons' src={iconFlag} alt='brazilian flag'/>www.maxmilhas.com.br</a>
                 </li>
@@ -25,10 +25,10 @@ const Footer = (props) => (
                 <li className='footer__list-links'>
                     <a href='#'><img className='footer__icons' src={iconMail} alt='mail icon'/>contato@maxmilhas.com.br</a>
                 </li>
-
             </ul>
         </div>
-        <div className='footer__container-media'>
+
+        <div className='footer__box-media'>
             <p className='footer__title-media' >Siga a MaxMilhas</p>
 
             <ul className='footer__links-media'>
@@ -54,6 +54,7 @@ const Footer = (props) => (
                 </li>
             </ul>
         </div>
+        
 
     </footer>
 )
