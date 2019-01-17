@@ -1,14 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Olá avaliadores da MAxMilhas.
 
-## Available Scripts
+Este projeto foi criado em o auxílio do [Create React App](https://github.com/facebook/create-react-app)
 
-In the project directory, you can run:
 
+No diretório do projeto é necessário instalar as dependências no node_modules
 ## `npm install`
 
-To install module dependencies
+É possível rodar a aplicação no modo de desenvolvimento através do local host e visualizar no browser
+[http://localhost:3000](http://localhost:3000)
 
 ### `npm start run`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
