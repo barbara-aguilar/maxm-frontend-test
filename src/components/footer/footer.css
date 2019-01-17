@@ -20,7 +20,8 @@
 }
 
 .footer__list-links{
-    list-style: none;  
+    list-style: none;
+    padding-bottom: 5px;  
 }
 
 .footer__list-links a{

@@ -1,0 +1,8 @@
+.main{
+    width: 100vw;
+    height: 85vh;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#3186b5),to(#9fd0eb));
+    background-image: -webkit-linear-gradient(top,#3186b5,#9fd0eb);
+    background-image: -o-linear-gradient(top,#3186b5,#9fd0eb);
+    background-image: linear-gradient(180deg,#3186b5,#9fd0eb);
+}
