@@ -1,5 +1,5 @@
 import React from 'react';
-import PostImage from './title.svg'
+import PostImage from './title.png'
 import './post.css';
 
 class Post extends React.Component {
