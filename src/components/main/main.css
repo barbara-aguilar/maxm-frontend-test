@@ -1,8 +1,37 @@
 .main{
-    width: 100vw;
-    height: 85vh;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 25px;
     background-image: -webkit-gradient(linear,left top,left bottom,from(#3186b5),to(#9fd0eb));
     background-image: -webkit-linear-gradient(top,#3186b5,#9fd0eb);
     background-image: -o-linear-gradient(top,#3186b5,#9fd0eb);
     background-image: linear-gradient(180deg,#3186b5,#9fd0eb);
+    /* background-image: url(./bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+      */
+}
+/* .bg-img{
+    width: 90vw;
+    z-index: 0;
+    position: absolute;
+    bottom: -15vh;
+    left: 5vw;
+} */
+
+@media (min-width: 992px) {
+    .main{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 90vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /* .bg-img{
+        width: 100vw;
+        bottom: -20vh;
+    } */
 }

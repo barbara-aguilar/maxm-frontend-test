@@ -5,12 +5,13 @@
     box-shadow: 0 1px 1px 0 #f0f1f4;
     display:block;
     text-align: center;
+    position: relative;
 }
 
 .footer__logo {
     display: block;
     width: 150px;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     padding-top: 35px;
 }
 
@@ -40,7 +41,7 @@
     color: #ffffff;
     font-size: 14px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -71,6 +72,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        position: relative;
     }
 
     .footer__logo{

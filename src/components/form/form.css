@@ -1,0 +1,40 @@
+
+.form__container{
+    width: 80vw;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #0291c9;
+    border-radius: 8px;
+    box-shadow: 0 3px 0 #246d96;
+}
+
+.form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form__title {
+    width: 75vw;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.form__text{
+    font-size: 16px;
+}
+
+@media (min-width: 992px) {
+    .form__container{
+        width: 30vw;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    .form__title{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}

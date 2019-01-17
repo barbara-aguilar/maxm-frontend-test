@@ -1,4 +1,5 @@
 import React from 'react'
+// import Background from './bg-image-02.svg'
 import './main.css'
 
 function Main(props){
@@ -9,4 +10,5 @@ function Main(props){
     )
 }
 
+/* <img className='bg-img' src={Background}/> */
 export default Main

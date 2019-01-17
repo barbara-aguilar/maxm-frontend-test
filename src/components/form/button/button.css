@@ -1,0 +1,22 @@
+.button {
+    display: inline-block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 15px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ff7f24eb;
+    box-shadow: 0 3px 0 #af4608;
+    color: #fff;
+}
+
+.button--disabled {
+    color: gray;
+    background: lightgrey;
+    border-color: lightgrey;
+}

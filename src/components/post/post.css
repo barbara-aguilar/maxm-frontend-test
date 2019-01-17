@@ -1,3 +1,65 @@
+.post__container{
+    width: 45%;
+    margin: 0 10%;
+    padding: 3%;
+    display: block;
+}
+
+.post__img{
+    width: 80vw;
+    text-align: center;
+
+}
+
 .post__title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80vw;
+}
+
+.post__subtitle{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    width:80vw;
+    text-align: justify;
+}
+
+.post__text{
+    width: 80vw;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+@media (min-width: 992px) {
+    .post__container {
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .post__img{
+        width: 60%;
+        text-align: center;
     
+    }
+
+    .post__title{
+        font-size: 30px;
+    }
+    .post__title, .post__subtitle, .post__text{
+        width: 100%;
+    }
 }

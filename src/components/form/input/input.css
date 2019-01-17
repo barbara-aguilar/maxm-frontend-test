@@ -1,0 +1,21 @@
+.input {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 0 0.5rem;
+    border: 1px solid #03668d;
+    width: 100%;
+    padding: 15px;
+    height: 30px;
+    font-size: 14px;
+}
+.input:focus {
+    outline: none;
+    border-color: #0011ff;
+    box-shadow: 0 0 10px #0291c9;
+}
+
+.input__erro {
+    color: red;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
